@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class Contact extends Component {
-  render() {
-    return <h1>Contact Page</h1>;
-  }
+function Contact() {
+  const pageHeader = 'Contact Page';
+  return <h1>{pageHeader}</h1>;
 }
-
 export default Contact;

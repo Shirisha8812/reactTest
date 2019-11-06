@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class Projects extends Component {
-  render() {
-    return <h1>Projects Page</h1>;
-  }
+function Projects() {
+  const pageHeader = 'Projects Page';
+  return <h1>{pageHeader}</h1>;
 }
 
 export default Projects;
