@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class Resume extends Component {
-  render() {
-    return <h1>Resume Page</h1>;
-  }
+function Resume() {
+  const pageHeader = 'Resume Page';
+  return <h1>{pageHeader}</h1>;
 }
 
 export default Resume;
