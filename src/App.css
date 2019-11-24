@@ -78,3 +78,43 @@
   font-size: 2em;
   padding: 8px;
 }
+
+/* -------------------------------- */
+/* ------Contact Page Component------ */
+/* -------------------------------- */
+
+.divContact {
+  margin: auto;
+  padding-top: 2em;
+  background-color: gray;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.divGrid {
+  height: 550px;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid red;
+  background: white;
+  width: 80%;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.leftCell p {
+  width: 75%;
+  margin: "auto";
+  padding-top: "1em";
+}
+
+.divGrid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.divGrid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
