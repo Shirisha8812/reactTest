@@ -19,6 +19,7 @@ class Contact extends Component {
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
+            <p>Phone No: 913-296-0168</p>
           </Cell>
         </Grid>
       </div>
