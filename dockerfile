@@ -1,4 +1,4 @@
-# base image --- testing webhook
+# base image 
 FROM node:12.13.0-alpine
 
 # set working directory
